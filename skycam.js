@@ -4,7 +4,6 @@ import * as native from 'natives';
 alt.onServer('skycam:Move', moveFromToAir);
 
 function moveFromToAir(moveTo, switchType) {
-    console.log(moveTo, switchType);
     /*
         switchType: 0 - 3
 
