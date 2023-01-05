@@ -15,11 +15,11 @@ function moveFromToAir(moveTo, switchType) {
 
   /* [SERVERSIDE EXAMPLE]
 
-      //TO SKY LIKE IN GTA ONLINE
+      //UP TO THE SKY LIKE IN GTA ONLINE
       alt.emitClient(player, 'skycam:Move', 'up', 1); 
 
-      //TO PLAYER LIKE IN GTA ONLINE
-      alt.emitClient(player, 'skycam:Move', 'up', 1);
+      //DOWN TO PLYER LIKE IN GTA ONLINE
+      alt.emitClient(player, 'skycam:Move', 'down', 1);
 
     */
   switch (moveTo) {
